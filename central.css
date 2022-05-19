@@ -172,6 +172,10 @@ input {
   border: 1px solid white;
 }
 
+.b-s{
+  border: 1px solid black;
+}
+
 .b-g{
   border: 2px solid green;
 }
@@ -182,6 +186,14 @@ input {
 
 .br-5{
   border-radius: 5px;
+}
+
+.br-15{
+  border-radius: 15px;
+}
+
+.br-20{
+  border-radius: 20px;
 }
 
 .br-100{
@@ -256,6 +268,10 @@ input {
   height: 170px;
 }
 
+.h-200{
+  height: 200px;
+}
+
 .h-100-p{
   height: 100%;
 }
@@ -280,6 +296,10 @@ input {
 
 .cg-20{
   column-gap: 20px;
+}
+
+.cg-25{
+  column-gap: 25px;
 }
 
 .cg-50{
@@ -795,6 +815,19 @@ a{
   .rs-py-20{
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .r-fs-50{
+    font-size: 50px; !important
+  }
+
+  .r-rg-25{
+    row-gap: 25px;
+  }
+
+  .r-d-flex-col{
+    display: flex;
+    flex-direction: column;
   }
 
   
