@@ -1,0 +1,21 @@
+<svg width="5200" height="1000" viewBox="0 0 5200 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5000 200H5200V800H5000V200Z" fill="black"/>
+<path d="M0 0H200V600H0V0Z" fill="black"/>
+<path d="M1000 0H1200V1000H1000V0Z" fill="black"/>
+<path d="M1600 0H1800V1000H1600V0Z" fill="black"/>
+<path d="M2000 0H2200V1000H2000V0Z" fill="black"/>
+<path d="M2400 0H2600V1000H2400V0Z" fill="black"/>
+<path d="M3400 0H3600V1000H3400V0Z" fill="black"/>
+<path d="M4400 0H4600V1000H4400V0Z" fill="black"/>
+<path d="M600 400H800V1000H600V400Z" fill="black"/>
+<rect y="400" width="800" height="200" fill="black"/>
+<rect x="2400" y="400" width="800" height="200" fill="black"/>
+<rect x="2400" width="800" height="200" fill="black"/>
+<rect x="2400" y="800" width="800" height="200" fill="black"/>
+<rect x="3400" y="800" width="800" height="200" fill="black"/>
+<rect x="4400" y="800" width="600" height="200" fill="black"/>
+<rect x="4400" width="600" height="200" fill="black"/>
+<rect x="1000" y="400" width="800" height="200" fill="black"/>
+<rect width="800" height="200" fill="black"/>
+<rect y="800" width="800" height="200" fill="black"/>
+</svg>
