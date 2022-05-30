@@ -7,18 +7,31 @@
   </head>
     
   <body>
-    
-    <div>Blackjack</div>
-    
-    <div id="message-el">Want to play a round?</div>
-    <div id="cards-el">Cards:</div>
-    <div id="sum-el">Sum:</div>
-    
-    <button onclick="startGame()">START GAME</button>
-    <button onclick="newCard()">New Card</button>
-    
+
+    <div class="min-h-100-vh d-flex jc-c ai-c">
+
+      <div class="bg-lg br-10 w-300 d-flex jc-c ai-c">
+
+        <div class="py-100 d-flex-col rg-10 ai-c jc-c">
+          
+          <div class="w-100-p fs-35 ta-c">Blackjack</div>
+          
+          <div class="w-300 bg-w py-10 ta-c" id="message-el">Want to play a round?</div>
+          <div id="cards-el">Cards:</div>
+          <div id="sum-el">Sum:</div>
+          
+          <button class="bg-b br-10 py-10 w-100 c-w fs-10 f-u" onclick="startGame()">START GAME</button>
+          <button class="bg-b br-10 py-10 w-100 c-w fs-10 f-u" onclick="newCard()">New Card</button>
+          <div id="player-el">Credits:</div>
+  
+        </div>
+  
+      </div>
+
+    </div>
+
     <script src="js/blackjack.js"></script>
-     
+    
   </body>
   
 </html>
