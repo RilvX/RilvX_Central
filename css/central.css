@@ -80,6 +80,8 @@ input {
 
 /* Width */
 
+/* Sub: Percents */
+
 .max-w-1200{
   max-width: 1200px;
 }
@@ -103,6 +105,8 @@ input {
 .w-40-p{
   width: 40%;
 }
+
+/* Sub: Pixels */
 
 .w-40{
   min-width: 40px;
