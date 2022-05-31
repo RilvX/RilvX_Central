@@ -107,7 +107,7 @@
   
           <div class="d-flex w-100-p ai-c cg-20">
             
-            <a class="c-w fs-14 px-30 py-15 br-10 bg-b f-IBM" href="welcomedashboard.html">Beta Dashboard</a>
+            <a class="c-w fs-14 px-30 py-15 br-10 bg-b f-IBM" href="welcomedashboard.html"><b>Beta Dashboard</b></a>
 
             <div class="c-b fs-14 px-20 py-15 br-10 bg-lg f-IBM">
               <b>npm @rilvx/install</b>
@@ -123,7 +123,7 @@
 
               <div class="d-flex w-100-p">
 
-                <div class="br-10-t bg-b c-w px-30 py-5 f-u" id="status">
+                <div class="br-10-t bg-b c-w w-225 ta-c py-5 f-u" id="status">
                   RilvX Status: 100%
                 </div>
 
@@ -140,17 +140,19 @@
           
                   <div class="d-flex cg-15 py-20 px-20 fw-w rg-15">
           
-                      <a class="fs-14 px-30 py-10 br-100 bg-w" href="welcomedashboard.html">Blockchain</a>
+                      <div class="fs-14 px-30 py-10 br-100 bg-w" id="blockchain" onclick="blockchainStatus()" >Blockchain</div>
 
-                      <a class="fs-14 px-30 py-10 br-100 bg-w" href="welcomedashboard.html">IDE</a>
+                      <div class="fs-14 px-30 py-10 br-100 bg-w" id="ide" onclick="ideStatus()" >IDE</div>
 
-                      <a class="fs-14 px-30 py-10 br-100 bg-w" href="welcomedashboard.html">Backend</a>
+                      <div class="fs-14 px-30 py-10 br-100 bg-w" id="backend" onclick="backendStatus()" >Backend</div>
 
-                      <a class="fs-14 px-30 py-10 br-100 bg-w" href="welcomedashboard.html">Frontend</a>
+                      <div class="fs-14 px-30 py-10 br-100 bg-w" id="frontend" onclick="frontendStatus()" >Frontend</div>
 
-                      <a class="fs-14 px-30 py-10 br-100 bg-w" href="welcomedashboard.html">API</a>
+                      <div class="fs-14 px-30 py-10 br-100 bg-w" id="auth" onclick="authStatus()" >Auth</div>
 
-                      <a class="fs-14 px-30 py-10 br-100 bg-w" href="welcomedashboard.html">Site</a>
+                      <div class="fs-14 px-30 py-10 br-100 bg-w" id="host" onclick="hostStatus()" >Host</div>
+
+                      <div class="fs-14 px-15 py-10 br-100 bg-w" id="rilvx" onclick="rilvxStatus()" >X</div>
   
                   </div>
           
