@@ -142,6 +142,10 @@ input {
   width: 25px;
 }
 
+.w-35{
+  width: 35px;
+}
+
 .w-50{
   width: 50px;
 }
@@ -205,6 +209,10 @@ input {
 
 .br-5{
   border-radius: 5px;
+}
+
+.br-2{
+  border-radius: 2px;
 }
 
 .br-15{
@@ -303,6 +311,10 @@ input {
 
 .fw-w{
   flex-wrap: wrap;
+}
+
+.cg-5{
+  column-gap: 5px;
 }
 
 .cg-10{
@@ -557,6 +569,14 @@ input {
 
 .bg-g{
   background: #7d7d7d;
+}
+
+.bg-g{
+  background: #2ECC66;
+}
+
+.bg-r{
+  background: red;
 }
 
 .bg-t{
