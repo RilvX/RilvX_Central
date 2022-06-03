@@ -1,4 +1,20 @@
 
+setInterval(timeInterval, 1000);
+let swap = true;
+
+function timeInterval() {
+  if (swap === true){
+    document.getElementById("upTime").style.backgroundColor = '2ECC66';
+    swap = false;
+  }
+  else if (swap === false){
+    document.getElementById("upTime").style.backgroundColor = 'red';
+    swap = true;
+  }
+}
+
+
+
 let statusType = {
   blockchain: 100,
   ide: "Critical",
