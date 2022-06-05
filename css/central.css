@@ -874,6 +874,21 @@ a{
   justify-content: space-between;
 }
 
+.form{
+    background: none;
+    font-family: inherit;
+    padding: 0px 17px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255, .2);
+    color:white;
+    border-radius: 3px;
+    outline: none;
+    width: 350px;
+    margin-top: 5px;
+    border-radius: 50px;
+    color: #FFF;
+}
+
 /* Mobile (Responsiveness) */
 
 
