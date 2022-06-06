@@ -4,12 +4,14 @@ let swap = true;
 
 function timeInterval() {
   if (swap === true){
-    document.getElementById("upTime").style.backgroundColor = '2ECC66';
+    document.getElementById("upTime").style.backgroundColor = 'black';
     swap = false;
+    console.log("Green");
   }
-  else if (swap === false){
+  else{
     document.getElementById("upTime").style.backgroundColor = 'red';
     swap = true;
+    console.log("Red");
   }
 }
 
@@ -23,6 +25,10 @@ let statusType = {
   auth: 100,
   host: 100,
   rilvx: "Operational"
+}
+
+for (let index = 0; index < statusType.length; index++) {
+  
 }
 
 let critical = false
