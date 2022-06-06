@@ -27,6 +27,8 @@ let statusType = {
   rilvx: "Operational"
 }
 
+
+
 for (let index = 0; index < statusType.length; index++) {
   
 }
@@ -37,6 +39,8 @@ function blockchainStatus() {
   document.getElementById("status").innerHTML = "Blockchain Status: " + statusType.blockchain + "%"
 
   document.getElementById('status').style.backgroundColor = '#F3F6F9';
+
+  
 }
 function ideStatus() {
   document.getElementById("status").innerHTML = "IDE Status: " + statusType.ide
