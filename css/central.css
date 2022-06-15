@@ -20,11 +20,11 @@ Table of contents:
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -43,6 +43,8 @@ Table of contents:
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body{
 	font-family: 'Ubuntu', sans-serif;
@@ -93,6 +95,26 @@ input {
 
 .f-l{
   font-family: 'Lexend', sans-serif !important;
+}
+
+.f-p{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.f-r{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.f-h{
+  font-family: 'Helvetica', sans-serif !important;
+}
+
+.f-a{
+  font-family: 'Arial', sans-serif !important;
+}
+
+.f-m{
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 /* Universal Default */
