@@ -1402,6 +1402,10 @@ a{
     width: 100%;
   }
 
+  .m-w-50-p{
+    min-width: 100%;
+  }
+
   .ss-jc-r{
     justify-content: right;
   }
