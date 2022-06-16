@@ -390,6 +390,13 @@ input {
   width: 550px;
 }
 
+/* Width Sub: Others: */
+
+.m-w-50-p{
+  max-width: 50%;
+  min-width: 50%;
+}
+
 /* Height */
 
 /* Height Sub: Percent */
@@ -1225,6 +1232,10 @@ input {
 
 .pt-20px{
   padding-top: 20px;
+}
+
+.pb-50{
+  padding-bottom: 50px;
 }
 
 .mx-10{
