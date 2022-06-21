@@ -1394,6 +1394,10 @@ a{
 
 @media only screen and (max-width:768px) {
 
+  .rs-pt-50{
+    padding-top: 50px;
+  }
+
   .r-b{
     display: block;
   }
