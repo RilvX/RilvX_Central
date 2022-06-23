@@ -46,6 +46,12 @@ Table of contents:
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 body{
 	font-family: 'Ubuntu', sans-serif;
   font-size: 15px;
@@ -115,6 +121,22 @@ input {
 
 .f-m{
   font-family: 'Montserrat', sans-serif !important;
+}
+
+.f-cl{
+  font-family: 'Cantarell', sans-serif !important;
+}
+
+.f-o{
+  font-family: 'Oxygen', sans-serif !important;
+}
+
+.f-rm{
+  font-family: 'Roboto Mono', sans-serif !important;
+}
+
+.f-sm{
+  font-family: 'Space Mono', sans-serif !important;
 }
 
 /* Universal Default */
@@ -397,6 +419,11 @@ input {
   min-width: 50%;
 }
 
+.m-w-40-p{
+  max-width: 40%;
+  min-width: 40%;
+}
+
 /* Height */
 
 /* Height Sub: Percent */
@@ -622,9 +649,22 @@ input {
   border-bottom-right-radius: 15px;
 }
 
+.br-5-t{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
 .br-10-t{
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+.br-10-bl{
+  border-bottom-left-radius: 10px;
+}
+
+.br-10-br{
+  border-bottom-right-radius: 10px;
 }
 
 .br-10-tl{
@@ -671,6 +711,16 @@ input {
 
 .b-g-2{
   border: 2px solid green;
+}
+
+.b-dlg-2{
+  border: 2px solid #EAEEF2;
+}
+
+.b-dlg-2-lrt{
+  border-top: 2px solid #EAEEF2;
+  border-left: 2px solid #EAEEF2;
+  border-right: 2px solid #EAEEF2;
 }
 
 /* Layouts */
@@ -1098,6 +1148,22 @@ input {
   color: #008000;
 }
 
+.c-bl{
+  color: blue;
+}
+
+.c-p{
+  color: purple;
+}
+
+.c-t{
+  color: turquoise;
+}
+
+.c-r{
+  color: red;
+}
+
 /* Containers */
 
 .container{
@@ -1394,6 +1460,12 @@ a{
 
 @media only screen and (max-width:768px) {
 
+  /* Sub Mobile: New */
+
+  .rs-fs-40{
+    font-size: 40px;
+  }
+
   .rs-pt-50{
     padding-top: 50px;
   }
@@ -1444,7 +1516,16 @@ a{
     flex-direction: column;
   }
 
-  
+  /* Mobile Sub: Existent */
+
+  .m-w-40-p{
+    min-width: 100%; 
+  }
+
+  .w-60-p{
+    min-width: 100%;
+  }
+
 }
 
 
