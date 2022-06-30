@@ -1518,23 +1518,15 @@ a{
     justify-content: left;
   }
 
-  .r-b{
+  .rs-d-b{
     display: block;
   }
 
-  .r-h{
+  .rs-d-n{
     display: none;
   }
 
-  .w-50-p{
-    width: 100%;
-  }
-
-  .m-w-50-p{
-    min-width: 100%;
-  }
-
-  .ss-jc-r{
+  .rs-jc-r{
     justify-content: right;
   }
 
@@ -1542,7 +1534,7 @@ a{
     margin-left: 0;
   }
 
-  .sr-mt-25{
+  .rs-mt-25{
     margin-top: 25px;
   }
 
@@ -1551,11 +1543,11 @@ a{
     padding-bottom: 20px;
   }
 
-  .r-fs-50{
+  .rs-fs-50{
     font-size: 50px; !important
   }
 
-  .r-rg-25{
+  .rs-rg-25{
     row-gap: 25px;
   }
 
@@ -1571,6 +1563,14 @@ a{
   }
 
   .w-60-p{
+    min-width: 100%;
+  }
+
+  .w-50-p{
+    width: 100%;
+  }
+
+  .m-w-50-p{
     min-width: 100%;
   }
 
